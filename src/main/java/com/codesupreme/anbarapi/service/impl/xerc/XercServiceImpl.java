@@ -5,11 +5,13 @@ import com.codesupreme.anbarapi.dto.xerc.XercDto;
 import com.codesupreme.anbarapi.model.xerc.Xerc;
 import com.codesupreme.anbarapi.service.inter.xerc.XercServiceInter;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+@Service
 public class XercServiceImpl implements XercServiceInter {
 
     private final XercRepository xercRepository;
