@@ -77,6 +77,10 @@ public class SenedServiceImpl implements SenedServiceInter {
                 sened.setType(senedDto.getType());
             }
 
+            if (senedDto.getPaymentType() != null) {
+                sened.setPaymentType(senedDto.getPaymentType());
+            }
+
             if (senedDto.getCreatedDate() != null) {
                 sened.setCreatedDate(senedDto.getCreatedDate());
             }

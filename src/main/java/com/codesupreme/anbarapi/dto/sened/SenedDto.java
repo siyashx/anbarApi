@@ -18,5 +18,6 @@ public class SenedDto {
     private Long malId;
     private Long saticiId;
     private String type;
+    private String paymentType;
     private Date createdDate;
 }
