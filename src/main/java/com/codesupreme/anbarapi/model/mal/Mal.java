@@ -26,7 +26,6 @@ public class Mal {
     private Double buyPrice;
     private Double sellPrice;
     private Boolean isOld;
-    private Boolean isDept;
     private Date createdDate;
 
 

@@ -20,7 +20,6 @@ public class MalDto {
     private Double buyPrice;
     private Double sellPrice;
     private Boolean isOld;
-    private Boolean isDept;
     private Date createdDate;
 
 }

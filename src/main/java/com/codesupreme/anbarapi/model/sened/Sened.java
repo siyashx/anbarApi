@@ -25,6 +25,8 @@ public class Sened {
     private Long saticiId;
     private String type;
     private String paymentType;
+    private Integer malCount;
+    private Double price;
     private Date createdDate;
 
 }

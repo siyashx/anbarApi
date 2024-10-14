@@ -85,10 +85,6 @@ public class MalServiceImpl implements MalServiceInter {
                 mal.setIsOld(malDto.getIsOld());
             }
 
-            if (malDto.getIsDept() != null) {
-                mal.setIsDept(malDto.getIsDept());
-            }
-
             if (malDto.getCreatedDate() != null) {
                 mal.setCreatedDate(malDto.getCreatedDate());
             }
